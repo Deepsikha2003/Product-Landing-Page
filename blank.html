@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Coffee</title>
+</head>
+<body>
+  <div id="product-list"></div>
+
+  <script>
+    const products = [
+      { name: "Affogato", price: 15, image: "images/affogato.jpg", rating: 4.5 }
+    ];
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.getElementById("product-list");
+      container.innerHTML = `<h2>${products[0].name} - ₹${products[0].price}</h2>`;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sippin’ Slow</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">Sippin' Slow</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="#about-us">Our Story</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Sippin’ Slow</h1>
+            <p>A nod to mindful mornings.</p>
+            <a href="products.html" class="cta-button">Explore Our Coffees</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="best-sellers" class="section-container best-sellers">
+            <h2 class="section-subtitle">-Best Sellers-</h2>
+            <h1 class="section-title">Our Signature Coffees</h1>
+            <p class="section-description">Discover our most popular blends that are loved by coffee enthusiasts worldwide.</p>
+            <div class="product-grid">
+                <div class="product-card" data-id="espresso">
+                    <div class="product-image-container">
+                        <img src="./images/Cappu.jpeg" alt="Espresso Blend" class="product-image">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">Espresso Blend</h3>
+                        <p class="product-info">Bold, rich, and smooth espresso.</p>
+                        <p class="product-price">₹15.99</p>
+                    </div>
+                    <div class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></div>
+                </div>
+                <div class="product-card" data-id="house-blend">
+                    <div class="product-image-container">
+                        <img src="./images/Mocha.jpeg" alt="House Blend" class="product-image">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">House Blend</h3>
+                        <p class="product-info">Our most popular blend, ideal for every morning.</p>
+                        <p class="product-price">₹12.99</p>
+                    </div>
+                    <div class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></div>
+                </div>
+                <div class="product-card" data-id="cold-brew">
+                    <div class="product-image-container">
+                        <img src="./images/Latte.jpeg" alt="Cold Brew" class="product-image">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="product-name">Cold Brew Concentrate</h3>
+                        <p class="product-info">Smooth, low-acidity, perfect for iced coffee.</p>
+                        <p class="product-price">₹18.99</p>
+                    </div>
+                    <div class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i></div>
+                </div>
+            </div>
+            <a href="products.html" class="view-more">View All Products</a>
+        </section>
+        
+        <section class="delivery-section">
+            <div class="delivery-content">
+                <h2 class="delivery-title">Coffee Delivered to Your Door.</h2>
+                <p class="delivery-text">Join our Coffee Club and get your favorite blends delivered to you on your schedule, with exclusive members-only deals and flexible options.</p>
+                <a href="products.html" class="shop-button">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="about-us" class="section-container about-us">
+            <h2 class="section-subtitle">– Our Story –</h2>
+            <h1 class="section-title">Rooted in Passion</h1>
+            <p class="about-text">
+                In the lush, emerald stretches of India’s Western Ghats and Eastern highlands, where the morning mist kisses centuries-old plantations, our journey was brewed — not in a boardroom, but in the heart of a true coffee romantic. Born from a personal devotion to the ritual of coffee, this endeavor is an ode to the richness of Indian soil, the hands that nurture it, and the timeless heritage it carries. From the bold, earthy beans of Chikmagalur and Coorg to the nuanced, floral notes of the Araku Valley, we source our coffee exclusively from India’s finest estates — handpicked, sun-dried, and roasted to perfection.
+                <br><br>
+                Every blend we offer is an embodiment of craftsmanship and care — a seamless fusion of tradition, sustainability, and an unrelenting passion for the perfect cup. We work hand-in-hand with local farmers, embracing ethical sourcing and honoring age-old techniques, ensuring that every sip tells a story of provenance and pride. At the heart of our brand lies a simple belief: coffee isn’t just a beverage — it’s a legacy, a love, and a lifestyle. And through every pour, we invite you to experience India in its most aromatic form.
+            </p>
+        </section>
+
+        <section class="section-container why-choose-us">
+            <h2 class="section-subtitle">– Our Values –</h2>
+            <h1 class="section-title">Why Choose Us?</h1>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="./images/source.jpg" alt="Sustainably Sourced Icon">
+                    <h3 class="feature-title">Sustainably Sourced</h3>
+                    <p>We're committed to using ethical, sustainable farming practices.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="./images/roast.jpg" alt="Freshly Roasted Icon">
+                    <h3 class="feature-title">Freshly Roasted</h3>
+                    <p>Our coffee is roasted in small batches to ensure maximum freshness and flavor.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="./images/craft.jpg" alt="Expertly Crafted Icon">
+                    <h3 class="feature-title">Expertly Crafted</h3>
+                    <p>Each blend is designed to highlight the best qualities of the beans.</p>
+                </div>
+            </div>
+         </section>
+
+        <section class="espresso-section">
+            <div class="espresso-content">
+                <h2 class="espresso-title">Espresso Blend</h2>
+                <p class="espresso-text">Bold, rich, and smooth this espresso blend is perfect for those who enjoy a full-bodied, flavorful cup of coffee. Carefully selected beans from Central and South America are expertly roasted to create a satisfying and intense espresso shot.</p>
+            </div>
+            <div class="espresso-image-container">
+                <img src="./images/Espresso.jpg" alt="Espresso Cup" class="espresso-image">
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Sippin' Slow. All rights reserved.</p>
+        <a href="#">Privacy Policy</a>
+    </footer>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items-container"></div>
+            <div class="cart-total">
+                <p>Total: ₹<span id="cart-total-price">0.00</span></p>
+            </div>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <script src="js/products-data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
